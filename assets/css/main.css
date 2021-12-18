@@ -86,11 +86,11 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 19pt;
+  font-family: 'Open Scans', sans-serif;
+  font-size: 14pt;
   font-weight: 300;
-  line-height: 1.75em;
-  color: #888;
+  line-height: 1.65em;
+  color: #262625;
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -105,16 +105,16 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 input, textarea, select {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 19pt;
+  font-family: 'Open Scans', sans-serif;
+  font-size: 14pt;
   font-weight: 300;
-  line-height: 1.75em;
-  color: #888;
+  line-height: 1.65em;
+  color: #262625;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #666;
+  color: #262625;
   line-height: 1.5em;
 }
 
@@ -136,16 +136,16 @@ h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   letter-spacing: -1px;
 }
 
 h2.alt {
-  color: #888;
+  color: #262625;
 }
 
 h2.alt strong {
-  color: #666;
+  color: #262625;
 }
 
 h3 {
@@ -166,7 +166,7 @@ footer {
 
 strong, b {
   font-weight: 300;
-  color: #666;
+  color: #262625;
 }
 
 em, i {
@@ -2008,7 +2008,7 @@ button:active,
 }
 
 .item header h3 {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 /* Icons */
@@ -2128,7 +2128,7 @@ button:active,
 #logo p {
   position: relative;
   display: block;
-  font-size: 0.6em;
+  font-size: 0.8em;
   color: rgba(255, 255, 255, 0.5);
   line-height: 1.25em;
   margin: 0.5em 0 0 0;
@@ -2166,7 +2166,7 @@ button:active,
 #nav ul li a span {
   position: relative;
   display: block;
-  font-size: 0.8em;
+  font-size: 1.0em;
 }
 
 #nav ul li a span:before {
@@ -2327,7 +2327,7 @@ button:active,
 
   /* Basic */
   body, input, textarea, select {
-    font-size: 16pt;
+    font-size: 14pt;
   }
 
   .container {

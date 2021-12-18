@@ -108,11 +108,11 @@
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-family: 'Open Scans', sans-serif;
+		font-size: 14pt;
 		font-weight: 300;
-		line-height: 1.75em;
-		color: #888;
+		line-height: 1.65em;
+		color: #262625;
 
 		// Stops initial animations until page loads.
 			&.is-preload {
@@ -125,16 +125,16 @@
 	}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-family: 'Open Scans', sans-serif;
+		font-size: 14pt;
 		font-weight: 300;
-		line-height: 1.75em;
-		color: #888;
+		line-height: 1.65em;
+		color: #262625;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #262625;
 		line-height: 1.5em;
 	}
 
@@ -148,14 +148,14 @@
 	}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.8em;
 		letter-spacing: -1px;
 
 		&.alt {
-			color: #888;
+			color: #262625;
 
 			strong {
-				color: #666;
+				color: #262625;
 			}
 		}
 	}
@@ -178,7 +178,7 @@
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: #262625;
 	}
 
 	em, i {
@@ -532,7 +532,7 @@
 			font-size: 0.8em;
 
 			h3 {
-				font-size: 1em;
+				font-size: 0.8em;
 			}
 		}
 	}
@@ -626,7 +626,7 @@
 		p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.8em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
@@ -660,7 +660,7 @@
 					span {
 						position: relative;
 						display: block;
-						font-size: 0.8em;
+						font-size: 1.0em;
 
 						&:before {
 							position: absolute;
@@ -921,7 +921,7 @@
 			}
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 14pt;
 			}
 
 			header {
