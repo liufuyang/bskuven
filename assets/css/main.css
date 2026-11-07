@@ -1776,9 +1776,14 @@ article > .container, article:last-child {
 }
 
 .image.avatar {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   /*background: #f00;*/
+}
+
+.image.avatar img {
+  height: 100%;
+  object-fit: contain;
 }
 
 .image.fit {
@@ -2112,8 +2117,11 @@ button:active,
 
 #logo {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 1.75em 1.5em 1.5em 1.5em;
-  min-height: 48px;
+  min-height: 120px;
   cursor: default;
 }
 
@@ -2135,9 +2143,7 @@ button:active,
 }
 
 #logo .image {
-  position: absolute;
-  left: 0;
-  top: 0;
+  position: relative;
 }
 
 #nav ul {
